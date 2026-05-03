@@ -1,0 +1,47 @@
+site_name: Math-Learning
+site_description: 数学证明与知识库
+site_author: YJZ2012
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: white
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: 切换暗色模式
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: 切换亮色模式
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - content.code.copy
+  icon:
+    logo: material/school
+    repo: fontawesome/brands/github
+
+repo_url: https://github.com/YJZ2012/Math-Learning-New
+repo_name: YJZ2012/Math-Learning-New
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - toc:
+      permalink: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/YJZ2012
