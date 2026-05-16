@@ -22,23 +22,27 @@ $$ \sum_{i=1}^{n} i^2 = \frac{n(n+1)(2n+1)}{6} $$
 将 $n=k$ 代入上式，我们有：
 $$ \sum_{i=1}^{k} i^2 = \frac{k(k+1)(2k+1)}{6} $$
 
-当 $n=k+1$ 时，
-$$ \begin{aligned}
+当 \( n = k + 1 \) 时，
+
+\[
+\begin{aligned}
 \sum_{i=1}^{k+1} i^2 &= \frac{k(k+1)(2k+1)}{6} + (k+1)^2 \\
 &= \frac{k(k+1)(2k+1) + 6(k+1)^2}{6}
-\end{aligned} $$
+\end{aligned}
+\]
 
 对其进行因式分解，得到：
-$$ \begin{aligned}
+
+\[
+\begin{aligned}
 \sum_{i=1}^{k+1} i^2 &= \frac{(k+1)(2k^2 + 7k + 6)}{6} \\
 &= \frac{(k+1)(k+2)(2k+3)}{6}
-\end{aligned} $$
+\end{aligned}
+\]
 
 故而 $n=k+1$ 时，上式成立。
 
 又因为 $n=1$ 时上式成立，所以 $n$ 为任意整数时上式均成立。
-
-证毕。 $\square$
 
 ---
 
