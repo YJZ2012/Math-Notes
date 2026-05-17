@@ -41,8 +41,9 @@ extra_javascript:
 
 # ===== 极简导航（你自己加内容）=====
 nav:
-  - 简介: index.md
-  - 数学符号表: math/symbols.md
+  - 简介:
+    - Getting Started: index.md
+    - 数学符号表: math/symbols.md
   - 数论:
     - 数学归纳法: math/induction.md
     - 素数: math/prime.md
