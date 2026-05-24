@@ -13,6 +13,8 @@
 <details>
   <summary>性质 $1$ 证明 </summary>
 
+  \[ \] % 隔离用空公式
+
   若 $p$ 不为素数. 设 $p=qm$, 由 $p \mid n$ 可知 $m \mid n$, 这与 $p$ 是 $n$ 最小的正因数矛盾, 故而 $p$ 为素数.
 </details>
 
