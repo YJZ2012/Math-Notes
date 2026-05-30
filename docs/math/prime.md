@@ -8,34 +8,24 @@
 !!! note 性质
     性质 $1.$ 设 $n$ 为大于 $1$ 的正整数, $p$ 是 $n$ 的大于 $1$ 的因数中最小的正整数, 则 $p$ 一定为素数.
 
-<!-- 证明开始 -->
+??? success "证明"
 
-<details>
-  <summary>性质 $1$ 证明 </summary>
-
-  \[\]
-
-  若 $p$ 不为素数. 设 $p=qm$, 由 $p \mid n$ 可知 $m \mid n$, 这与 $p$ 是 $n$ 最小的正因数矛盾, 故而 $p$ 为素数.
-</details>
+    若 $p$ 不为素数. 设 $p=qm$, 由 $p \mid n$ 可知 $m \mid n$, 这与 $p$ 是 $n$ 最小的正因数矛盾, 故而 $p$ 为素数.
 
 !!! note 性质
     性质 $2.$ 若对于任意 $1$ 到 $\sqrt{n}$ 之间的素数 $p$, 都有 $p \nmid n$, 则 $n$ 为素数 $(n > 1)$.
 
-<details>
-  <summary>性质 $2$ 证明 </summary>
+??? success "证明"
 
-  假设 $p$ 不为素数. 设 $n=xy$, 其中 $(1 \le x \le y \le n)$, 显然我们有 $x \le \sqrt{n}$, 可得 $x$ 至少有一个素因数 $p$ 满足 $p \le x \le \sqrt{n}$, 又因 $p \mid a$ 且 $a \mid n$，故而 $p \mid n$. 这与所有不超过 $\sqrt{n}$ 的素数 $p$ 都不整除 $n$ 矛盾. 综上, $n$ 是素数.
-</details>
+    假设 $p$ 不为素数. 设 $n=xy$, 其中 $(1 \le x \le y \le n)$, 显然我们有 $x \le \sqrt{n}$, 可得 $x$ 至少有一个素因数 $p$ 满足 $p \le x \le \sqrt{n}$, 又因 $p \mid a$ 且 $a \mid n$，故而 $p \mid n$. 这与所有不超过 $\sqrt{n}$ 的素数 $p$ 都不整除 $n$ 矛盾. 综上, $n$ 是素数.
 
 !!! note 性质
     性质 $3.$ 素数有无穷多个.
 
-<details>
-  <summary>性质 $3$ 证明 </summary>
+??? success "证明"
 
-  若只有有限个素数, 设他们是 $p_1 \le p_2 \le \ldots \le p_n$. 考虑数
-  $$ x = \prod_{i=1}^{n} p_i + 1, $$
-  其最小的大于 $1$ 的因数 $p$ 应为素数, 因此, $p$ 应为 $p_1, p_2, \ldots, p_n$ 中的一个. 设 $p=p_i$, $1\le i \le n$, 且 $x=p_iy$, 则 $\prod_{i=1}^{n} p_i + 1=p_i y$, 即
-  $$p_i(y-\prod_{i=1}^{n} p_i)=1.$$
-  这导致 $p_i \mid 1$. 矛盾. 所以素数有无数个.
-</details>
+    若只有有限个素数, 设他们是 $p_1 \le p_2 \le \ldots \le p_n$. 考虑数
+    $$ x = \prod_{i=1}^{n} p_i + 1, $$
+    其最小的大于 $1$ 的因数 $p$ 应为素数, 因此, $p$ 应为 $p_1, p_2, \ldots, p_n$ 中的一个. 设 $p=p_i$, $1\le i \le n$, 且 $x=p_iy$, 则 $\prod_{i=1}^{n} p_i + 1=p_i y$, 即
+    $$p_i(y-\prod_{i=1}^{n} p_i)=1.$$
+    这导致 $p_i \mid 1$. 矛盾. 所以素数有无数个.
